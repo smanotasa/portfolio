@@ -1,0 +1,47 @@
+# Site Settings
+title: Data Science Portfolio
+description: A portfolio of current and past projects
+# baseurl: "/particle"
+# url: "localhost:3000"
+
+# User Settings
+username: Santiago Manotas-Arroyave
+user_description: M.Sc. in International Business| M.Sc. in Data Science | B.Sc. in Economics
+user_title: Data Science | Corporate Finance | Econometrics
+email: santiago.manotas@gmail.com
+twitter_username: ManotasArroyave
+github_username: smanotasa
+# gplus_username: 
+# disqus_username: 
+
+# Google Analytics
+google_analytics:
+  id: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
